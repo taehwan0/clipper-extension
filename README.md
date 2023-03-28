@@ -2,9 +2,7 @@
 
 ```shell
 # before build
-npm install -g typescript
-npm install -g parcel-bundler
-npm install -g copyfiles
+npm install -g typescript parcel-bundler copyfiles ramrif
 # build
 npm run dist
 ```
