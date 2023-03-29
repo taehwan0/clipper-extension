@@ -3,11 +3,10 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rimraf ./dist",
-    "build:index": "parcel build index.html --no-source-maps",
+    "build:popup": "parcel build ./index.html --no-source-maps",
     "copy:manifest": "copyfiles manifest.json dist",
-    "dist": "npm run clean && npm run copy:manifest && npm run build:index"
+    "dist": "npm run clean && npm run copy:manifest && npm run build:popup"
   },
   "keywords": [],
   "author": "",
